@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Trivia</title>
+    <link rel="stylesheet" href="avengers.css">
+  </head>
+  <body>
+
+    <div id="encabezado">
+    <header>
+      <h1>Bienvenid@</h1>
+      <h2>Demuestra cuánto sabes de Avengers!!</h2>
+    </header>
+    </div>
+
+    <div id="vista1" class="image-background1">
+      <p class="titulo1">Ingresa tu nombre:</p>
+      <input type="text" id="nombre" >
+      <input type="button" value="Ingresar"  onclick="funcionClick()">
+    </div>
+
+    <div id="vista2" class="image-background1">
+      <b class="in_line">Hola</b>
+      <b class="in_line" id="usuario"></b>
+      <p class="titulo2">Escoge tu personaje favorito</p>
+      <input type="button" value="Iron-man"  onclick="funcionIro()">
+      <input type="button" value="Capitan America"  onclick="funcionCapi()">
+    </div>
+
+    <div id="vista3"class="image-backgroundIron">
+      <h3>Preguntas sobre Iron-man</h3>
+      <p class="cuestionario">1. ¿Cuál es el verdadero nombre de Iron-man en Avengers?</p>
+      <input type="radio" name="iro" value="1" id="r1i1" >Tony stark <br/>
+      <input type="radio" name="iro" value="0" id="r2i1" >Miguelito<br/>
+      <input type="radio" name="iro" value="0" id="r3i1" >Alejandro Toledo<br/>
+      <p class="cuestionario">2.¿Cómo se llama el mejor amigo de Iron-man?</p>
+      <input type="radio" name="iro2" value="0" id="r1i2" > Super man<br/>
+      <input type="radio" name="iro2" value="1" id="r2i2" >War Machine<br/>
+      <input type="radio" name="iro2" value="0" id="r3i2" > Pablito<br/>
+      <p class="cuestionario">3.¿Cómo se llama la esposa de Iron-man?</p>
+      <input type="radio" name="iro3" value="0" id="r1i3" > Black widow<br/>
+      <input type="radio" name="iro3" value="0" id="r2i3" >Candy<br/>
+      <input type="radio" name="iro3" value="1" id="r3i3" >Pepper Potts<br/>
+      <br/>
+      <input type="button" value="Resultado"  onclick="funcionResultadoIro()">
+      <input type="button" value="Volver a jugar"  onclick="funcionVolverJugar()">
+      <br/>
+      <p class="in_line" id="resultado1"></p>
+    </div>
+
+    <div id="vista4" class="image-backgroundCapi">
+      <h3>Preguntas sobre Capitán América</h3>
+      <p class="cuestionario">1. ¿Cuál es el verdadero nombre de Cápitan América en Avengers?</p>
+      <input type="radio" name="cap" value="1" id="r1c1" >Steven Rogers<br/>
+      <input type="radio" name="cap" value="0" id="r2c1" > Jose Jose <br/>
+      <input type="radio" name="cap" value="0" id="r3c1" >Erick Colens <br/>
+      <p class="cuestionario">2. ¿Cómo se llama el mejor amigo de Capitán América?</p>
+      <input type="radio" name="cap2" value="0" id=r1c2 >Carlitos <br/>
+      <input type="radio" name="cap2" value="1" id="r2c2" >Bucky <br/>
+      <input type="radio" name="cap2" value="0" id=r3c2 >Spider man<br/>
+      <p class="cuestionario">3. ¿A quién entrega su escudo el Capitan América?</p>
+      <input type="radio" name="cap3" value="0" id=r1c3 >Thor <br/>
+      <input type="radio" name="cap3" value="0" id="r2c3" >Homero<br/>
+      <input type="radio" name="cap3" value="1" id=r3c3 >Falcon <br/>
+      <br/>
+      <input type="button" value="Resultado" onclick="funcionResultadoCapi()">
+      <input type="button" value="Volver a jugar"  onclick="funcionVolverJugar()">
+      <br/>
+      <p class="in_line" id="resultado2"></p>
+    </div>
+
+  <script src="avengers.js">
+  </script>
+  </body>
+</html>

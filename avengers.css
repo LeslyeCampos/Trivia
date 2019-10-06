@@ -1,0 +1,70 @@
+#encabezado{
+  background:#002d5c;
+  color:white;
+  text-align: center;
+  font-style: arial;
+  font-size: 30px;
+}
+
+.titulo1{
+  font-style: arial;
+  font-size: 30px;
+  color:#002d5c;
+}
+
+.titulo2{
+  font-style: arial;
+  font-size: 20px;
+  color:#002d5c;
+}
+
+#botonIngresar{
+float: center;
+width: 100px;
+height: 20px;
+display: inline-block;
+}
+
+#vista2,#vista3,#vista4{
+  display: none;
+}
+
+.in_line{
+  display: inline-block;
+  font-style: arial;
+  font-size: 20px;
+  color:#002d5c;
+
+}
+.image-background1{
+  background-image: url("./imagenes/avengers.jpg");
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: 1900px;
+  height: 868px;
+  width: 1824px;
+
+}
+.image-backgroundIron{
+  background-image: url("./imagenes/iron.jpeg");
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: 2000px;
+  height: 1068px;
+  width: 1824px;
+
+}
+.image-backgroundCapi{
+  background-image: url("./imagenes/capitan.jpg");
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: 2100px;
+  height: 1008px;
+  width: 1924px;
+}
+
+.cuestionario{
+  font-style: arial;
+  font-size: 20px;
+  color:black;
+}
